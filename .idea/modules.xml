@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-pintar.iml" filepath="$PROJECT_DIR$/api-pintar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-pintar-application/api-pintar-application.iml" filepath="$PROJECT_DIR$/api-pintar-application/api-pintar-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-pintar-facade/api-pintar-facade.iml" filepath="$PROJECT_DIR$/api-pintar-facade/api-pintar-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-pintar-service/api-pintar-service.iml" filepath="$PROJECT_DIR$/api-pintar-service/api-pintar-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+corp\bi\go\id\api\pintar\service\OrderService.class
+corp\bi\go\id\api\pintar\service\KhazanahService.class
+corp\bi\go\id\api\pintar\service\KhazanahServiceImpl.class
+corp\bi\go\id\api\pintar\service\client\khazanah\KhazanahClientService.class
+corp\bi\go\id\api\pintar\service\client\config\KhazanahClientServiceConfig.class
+corp\bi\go\id\api\pintar\service\client\config\AcquiringClientServiceConfig.class
+corp\bi\go\id\api\pintar\service\OrderServiceImpl.class
+corp\bi\go\id\api\pintar\service\client\acquiring\OrderClientService.class
