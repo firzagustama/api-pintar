@@ -15,19 +15,26 @@
 
     <dependencies>
         <dependency>
-            <groupId>corp.bi.go.id</groupId>
+            <groupId>com.github.firzagustama.ap-plugin</groupId>
             <artifactId>ap-plugin-facade</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
-            <groupId>corp.bi.go.id</groupId>
+            <groupId>com.github.firzagustama.ap-khazanah</groupId>
             <artifactId>ap-khazanah-facade</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>main-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>corp.bi.go.id</groupId>
+            <groupId>com.github.firzagustama.ap-acquiring</groupId>
             <artifactId>ap-acquiring-facade</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>main-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 </project>

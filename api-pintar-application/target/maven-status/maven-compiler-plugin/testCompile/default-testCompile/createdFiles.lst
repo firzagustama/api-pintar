@@ -1,0 +1,4 @@
+corp\bi\go\id\api\pintar\application\facade\KhazanahFacadeTest.class
+corp\bi\go\id\api\pintar\application\config\KhazanahFacadeTestConfig.class
+corp\bi\go\id\api\pintar\application\PintarApplicationTest.class
+corp\bi\go\id\api\pintar\application\mock\KhazanahServiceGrpcMock.class

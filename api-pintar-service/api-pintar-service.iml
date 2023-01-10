@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: corp.bi.go.id:ap-plugin-facade:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.github.firzagustama.ap-plugin:ap-plugin-facade:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: net.devh:grpc-client-spring-boot-starter:2.14.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: net.devh:grpc-client-spring-boot-autoconfigure:2.14.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: net.devh:grpc-common-spring-boot:2.14.0.RELEASE" level="project" />
@@ -26,7 +26,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.9.1" level="project" />
-    <orderEntry type="library" name="Maven: corp.bi.go.id:ap-khazanah-facade:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.github.firzagustama.ap-khazanah:ap-khazanah-facade:main-fab15029d8-1" level="project" />
     <orderEntry type="library" name="Maven: io.grpc:grpc-stub:1.42.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:30.1-android" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
@@ -39,7 +39,7 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.17.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-common-protos:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.grpc:grpc-protobuf-lite:1.42.1" level="project" />
-    <orderEntry type="library" name="Maven: corp.bi.go.id:ap-acquiring-facade:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.github.firzagustama.ap-acquiring:ap-acquiring-facade:main-e88b5272af-1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.0.1" level="project" />
