@@ -22,7 +22,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @SpringBootTest
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
-public class PintarApplicationTest {
+public abstract class PintarApplicationTest {
     @Autowired
     private MockMvc mockMvc;
 

@@ -1,8 +1,6 @@
 package corp.bi.go.id.api.pintar.service.client.khazanah;
 
-import corp.bi.go.id.ap.khazanah.grpc.KhazanahRequest;
-import corp.bi.go.id.ap.khazanah.grpc.KhazanahResponse;
-import corp.bi.go.id.ap.khazanah.grpc.KhazanahServiceGrpc;
+import corp.bi.go.id.ap.khazanah.grpc.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,5 +13,9 @@ public class KhazanahClientService {
         return khazanahBlockingStub.getKhazanah(KhazanahRequest.newBuilder()
                 .setId(id)
                 .build());
+    }
+
+    public AllKhazanahResponse getAllKhazanah() {
+        return khazanahBlockingStub.getAllKhazanah(AllKhazanahRequest.newBuilder().build());
     }
 }

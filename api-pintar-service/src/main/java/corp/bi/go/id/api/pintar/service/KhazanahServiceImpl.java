@@ -5,6 +5,8 @@ import corp.bi.go.id.api.pintar.service.client.khazanah.KhazanahClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class KhazanahServiceImpl implements KhazanahService{
     @Autowired
@@ -13,5 +15,10 @@ public class KhazanahServiceImpl implements KhazanahService{
     @Override
     public KhazanahResponse getKhazanah(String id) {
         return khazanahClientService.getKhazanah(id);
+    }
+
+    @Override
+    public List<KhazanahResponse> getAllKhazanah() {
+        return khazanahClientService.getAllKhazanah().getKhazanahList();
     }
 }
