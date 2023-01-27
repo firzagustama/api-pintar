@@ -2,7 +2,7 @@ package corp.bi.go.id.api.pintar.application.facade;
 
 import corp.bi.go.id.ap.plugin.facade.response.ApiResponse;
 import corp.bi.go.id.api.pintar.application.PintarApplicationTest;
-import corp.bi.go.id.api.pintar.application.config.KhazanahFacadeTestConfig;
+import corp.bi.go.id.api.pintar.application.config.ClientServiceTestConfig;
 import corp.bi.go.id.api.pintar.facade.response.AllKhazanah;
 import corp.bi.go.id.api.pintar.facade.response.Khazanah;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Import;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Import(KhazanahFacadeTestConfig.class)
+@Import(ClientServiceTestConfig.class)
 public class KhazanahFacadeTest extends PintarApplicationTest {
 
     @Test

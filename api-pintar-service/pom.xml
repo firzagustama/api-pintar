@@ -29,6 +29,11 @@
             <artifactId>ap-acquiring-facade</artifactId>
             <version>main-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>corp.bi.go.id</groupId>
+            <artifactId>rpc-interface</artifactId>
+            <version>1.4.0</version>
+        </dependency>
     </dependencies>
 
     <repositories>

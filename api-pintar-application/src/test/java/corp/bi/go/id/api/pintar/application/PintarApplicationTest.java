@@ -2,16 +2,10 @@ package corp.bi.go.id.api.pintar.application;
 
 import corp.bi.go.id.ap.plugin.facade.request.ApiRequest;
 import corp.bi.go.id.ap.plugin.facade.response.ApiResponse;
-import corp.bi.go.id.api.pintar.application.config.KhazanahFacadeTestConfig;
-import corp.bi.go.id.api.pintar.application.facade.KhazanahFacadeTest;
-import corp.bi.go.id.api.pintar.application.mock.KhazanahServiceGrpcMock;
-import corp.bi.go.id.api.pintar.service.KhazanahService;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
